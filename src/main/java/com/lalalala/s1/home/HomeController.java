@@ -11,4 +11,8 @@ public class HomeController {
 		return "index";
 	}
 
+	@GetMapping("/member/join")
+	public String test() throws Exception {
+		return "member/join";
+	}
 }
