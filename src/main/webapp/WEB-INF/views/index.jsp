@@ -47,6 +47,8 @@
 	</div>  
 	<div class="container">
    		<!-- spring:message code="properties의 key"  -->
+   		<!-- code(key) 가 없는 경우 기본메세지 출력 하는 text 속성 -->
+   		<h1><spring:message code="hello1234" text="default message"></spring:message> </h1>
    		<h1><spring:message code="hello"></spring:message> </h1>
    		<h1><spring:message code="board.notice.list.welcome"></spring:message> </h1>
    		<h1><spring:message code="user.welcome" arguments="${user}, ${msg}" argumentSeparator=","></spring:message> </h1>
