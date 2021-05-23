@@ -48,6 +48,8 @@
 	<div class="container">
    		<!-- spring:message code="properties의 key"  -->
    		<h1><spring:message code="hello"></spring:message> </h1>
+   		<h1><spring:message code="board.notice.list.welcome"></spring:message> </h1>
+   		<h1><spring:message code="user.welcome" arguments="${user}, ${msg}" argumentSeparator=","></spring:message> </h1>
    	</div>
 	
    
